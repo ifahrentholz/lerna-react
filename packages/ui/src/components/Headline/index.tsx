@@ -9,10 +9,13 @@ export interface HeadlineProps {
 export class Headline extends React.Component<HeadlineProps> {
   render() {
     return (
-      <h1>
-        Hello {this.props.name} from {this.props.compiler} and{" "}
-        {this.props.framework}
-      </h1>
+      <>
+        <h1>
+          Hello {this.props.name} from {this.props.compiler} and{" "}
+          {this.props.framework}
+        </h1>
+        <small>Headline Component</small>
+      </>
     );
   }
 }
