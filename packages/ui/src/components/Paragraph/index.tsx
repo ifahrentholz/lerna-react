@@ -4,7 +4,7 @@ export class Paragraph extends React.Component {
   render() {
     return (
       <>
-        <p className="ingobingo">{this.props.children}</p>
+        <p className="schlingel">{this.props.children}</p>
       </>
     );
   }

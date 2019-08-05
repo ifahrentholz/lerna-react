@@ -20,3 +20,7 @@
   ```
   lerna run start
   ```
+- Run development task (in root)
+  ```
+  npm run dev
+  ```
