@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Headline } from "ui";
+import { Headline, Paragraph } from "ui";
 
 class App extends Component {
   render() {
@@ -22,6 +22,7 @@ class App extends Component {
           </a>
         </header>
         <Headline compiler="tsc" framework="react" name="ingo" />
+        <Paragraph>YOLOOOO!!!</Paragraph>
       </div>
     );
   }
